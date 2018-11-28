@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Sell Yo </title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="IIIT Allahabad sell your items to juniors.">
+<meta name="keywords" content="Sell items IIIT Allahabad ">
+
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'
+/>
+
+<link href="css/bulma.css" rel="stylesheet" />
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+</head>
+<body>
+    <section class="hero is-info is-small">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head">
+            <nav class="navbar is-transparent">
+                <div class="navbar-brand">
+                  <a class="navbar-item" href="https://bulma.io">
+                    
+                  </a>
+                  <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              
+                <div id="navbarExampleTransparentExample" class="navbar-menu">
+                  <div class="navbar-end">
+                    <a class="navbar-item" href="">
+                      Home
+                    </a>
+                    <div class="navbar-item ">
+                      <a class="navbar-item" href="form.html">
+                        Add Item to sell
+                      </a>
+                      
+                    </div>
+                    <div class="navbar-item ">
+                        <a class="navbar-item" href="https://github.com/gauthamzz/sellYo">
+                          GitHub
+                        </a>
+                        
+                      </div>
+                  </div>
+              
+           
+                </div>
+              </nav>
+
+
+
+
+     
+          </nav>
+        </div>
+      
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="title">
+              Sell Yo <i class="em em-moneybag"></i>
+            </h1>
+            <h2 class="subtitle">
+                <span id="typed"></span>
+         
+            </h2>
+          </div>
+        </div>
+      
+
+      </section>
+
+      
+         
+      <iframe class="airtable-embed" src="https://airtable.com/embed/shrWiYVB6wqVori2G?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+      <!-- <footer class="footer">
+            <div class="content has-text-centered">
+              <p>
+                <strong>Mess Complaints</strong> by <a href="http://gauthamzz.com">Gautham Santhosh</a>. 
+              </p>
+            </div>
+          </footer> -->
+
+<script>
+    (function() {
+      var burger = document.querySelector('.burger');
+      var nav = document.querySelector('#'+burger.dataset.target);
+     
+      burger.addEventListener('click', function(){
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+      });
+    })();
+</script>
+
+<script src="https://cdn.rawgit.com/mattboldt/typed.js/master/lib/typed.min.js"></script>
+<script>
+
+    var typed3 = new Typed('#typed', {
+      strings: ['<i class="em em-question"></i> Do you have something to sell?', 'Sell to your juniors', 'Buy from your seniors', 'Buy from people you know', 'No Commision! No bullshit', 'Only for IIIT A and IIIT L!'],
+      typeSpeed: 20,
+      backSpeed: 4,
+      smartBackspace: true, // this is a default
+      loop: true
+    });
+
+  </script>   
+</body>
+</html>
